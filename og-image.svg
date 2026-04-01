@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#F6F3EE"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1200" height="5" fill="#0B3D91"/>
+
+  <!-- Left rule -->
+  <rect x="80" y="80" width="1" height="470" fill="#D8D4CC"/>
+
+  <!-- Eyebrow -->
+  <text x="104" y="138"
+        font-family="'IBM Plex Mono', 'Courier New', monospace"
+        font-size="13" letter-spacing="3" fill="#999999"
+        text-transform="uppercase">SENIOR NETWORK OPTIMIZATION ENGINEER</text>
+
+  <!-- Name: light weight "Chris" -->
+  <text x="100" y="240"
+        font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif"
+        font-size="96" font-weight="300" fill="#111111">Chris</text>
+
+  <!-- Name: bold "Johnson" -->
+  <text x="100" y="340"
+        font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif"
+        font-size="96" font-weight="600" fill="#111111">Johnson</text>
+
+  <!-- Horizontal rule -->
+  <rect x="100" y="370" width="560" height="1" fill="#D8D4CC"/>
+
+  <!-- Stats -->
+  <text x="100" y="430"
+        font-family="'IBM Plex Mono', 'Courier New', monospace"
+        font-size="30" font-weight="500" fill="#0B3D91">$2M+</text>
+  <text x="100" y="456"
+        font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif"
+        font-size="13" fill="#999999">Annual savings</text>
+
+  <text x="270" y="430"
+        font-family="'IBM Plex Mono', 'Courier New', monospace"
+        font-size="30" font-weight="500" fill="#111111">15 yrs</text>
+  <text x="270" y="456"
+        font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif"
+        font-size="13" fill="#999999">Experience</text>
+
+  <text x="460" y="430"
+        font-family="'IBM Plex Mono', 'Courier New', monospace"
+        font-size="30" font-weight="500" fill="#111111">120+</text>
+  <text x="460" y="456"
+        font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif"
+        font-size="13" fill="#999999">Nodes managed</text>
+
+  <!-- Domain -->
+  <text x="100" y="560"
+        font-family="'IBM Plex Mono', 'Courier New', monospace"
+        font-size="14" fill="#BBBBBB" letter-spacing="1">chrisjohnson.cv</text>
+
+  <!-- Right side: large faded initials -->
+  <text x="1160" y="500"
+        font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif"
+        font-size="340" font-weight="600" fill="#E8E4DF"
+        text-anchor="end">CJ</text>
+
+</svg>

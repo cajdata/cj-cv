@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chris Johnson | Senior Network Optimization Engineer</title>
+  <meta name="description" content="Senior Network Optimization Engineer with 15+ years designing and optimizing large-scale backbone and carrier networks."/>
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://chrisjohnson.cv/"/>
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="profile"/>
+  <meta property="og:url"         content="https://chrisjohnson.cv/"/>
+  <meta property="og:title"       content="Chris Johnson | Senior Network Optimization Engineer"/>
+  <meta property="og:description" content="Senior Network Optimization Engineer with 15+ years designing and optimizing large-scale backbone and carrier networks."/>
+  <meta property="og:image"       content="https://chrisjohnson.cv/og-image.png"/>
+  <meta property="profile:first_name" content="Chris"/>
+  <meta property="profile:last_name"  content="Johnson"/>
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Chris Johnson",
+    "jobTitle": "Senior Network Optimization Engineer",
+    "url": "https://chrisjohnson.cv/",
+    "email": "christopherallenj@gmail.com",
+    "sameAs": [
+      "https://www.linkedin.com/in/christopherallenjohnson/",
+      "https://github.com/cajdata"
+    ],
+    "knowsAbout": ["BGP", "MPLS", "DWDM", "OSPF", "Azure", "AWS", "Python", "Ansible"]
+  }
+  </script>
+
+  <!-- Fonts: preconnect to avoid DNS lookup delay, load async to unblock render -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'"/>
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"/></noscript>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:         #F6F3EE;
+      --ink:        #111111;
+      --ink-mid:    #555555;
+      --ink-light:  #999999;
+      --rule:       #D8D4CC;
+      --rule-dark:  #111111;
+      --accent:     #0B3D91;
+      --sans:       'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+      --mono:       'IBM Plex Mono', 'Courier New', monospace;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-size: 15px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; }
+
+    /* ---- Layout ---- */
+    .wrap { max-width: 960px; margin: 0 auto; padding: 0 28px; }
+
+    /* ---- Nav ---- */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      background: var(--bg);
+      border-bottom: 1px solid var(--rule);
+      z-index: 100;
+    }
+    .nav-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 28px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-id {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--ink);
+      text-decoration: none;
+      letter-spacing: 0.03em;
+    }
+    .nav-links {
+      display: flex;
+      gap: 32px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 13px;
+      color: var(--ink-mid);
+      text-decoration: none;
+    }
+    .nav-links a:hover { color: var(--ink); }
+    .nav-cta {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--accent);
+      text-decoration: none;
+      border: 1px solid var(--accent);
+      padding: 6px 14px;
+      transition: background 0.1s, color 0.1s;
+    }
+    .nav-cta:hover { background: var(--accent); color: #fff; }
+
+    /* ---- Hero ---- */
+    .hero {
+      padding: 116px 0 64px;
+      border-bottom: 1px solid var(--rule-dark);
+    }
+    .hero-label {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      margin-bottom: 22px;
+    }
+    h1 {
+      font-size: 62px;
+      font-weight: 300;
+      line-height: 1.05;
+      letter-spacing: -0.025em;
+      color: var(--ink);
+      margin-bottom: 26px;
+    }
+    h1 strong { font-weight: 600; }
+    .hero-bio {
+      max-width: 560px;
+      font-size: 15px;
+      line-height: 1.75;
+      color: var(--ink-mid);
+      margin-bottom: 40px;
+    }
+    .hero-stats {
+      display: flex;
+      gap: 0;
+      margin-bottom: 40px;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+    }
+    .stat {
+      padding: 22px 40px 22px 0;
+      margin-right: 40px;
+      border-right: 1px solid var(--rule);
+    }
+    .stat:last-child { border-right: none; }
+    .stat-value {
+      display: block;
+      font-family: var(--mono);
+      font-size: 26px;
+      font-weight: 500;
+      color: var(--ink);
+      line-height: 1.2;
+    }
+    .stat-label {
+      display: block;
+      font-size: 12px;
+      color: var(--ink-light);
+      margin-top: 3px;
+    }
+    .hero-actions { display: flex; gap: 20px; align-items: center; }
+    .btn {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 10px 22px;
+      display: inline-block;
+      transition: background 0.1s, color 0.1s;
+    }
+    .btn-fill { background: var(--ink); color: var(--bg); }
+    .btn-fill:hover { background: var(--accent); }
+    .btn-ghost { color: var(--ink-mid); padding-left: 0; }
+    .btn-ghost:hover { color: var(--ink); }
+
+    /* ---- Sections ---- */
+    section { padding: 64px 0; border-bottom: 1px solid var(--rule); }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 48px;
+      margin-bottom: 40px;
+      align-items: baseline;
+    }
+    .section-label {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+    }
+    h2 {
+      font-size: 24px;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+    }
+
+    /* ---- Metrics ---- */
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border: 1px solid var(--rule);
+    }
+    .metric {
+      padding: 32px 28px;
+      border-right: 1px solid var(--rule);
+    }
+    .metric:last-child { border-right: none; }
+    .metric-value {
+      font-family: var(--mono);
+      font-size: 34px;
+      font-weight: 500;
+      color: var(--accent);
+      display: block;
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+    .metric-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 6px;
+    }
+    .metric-desc {
+      font-size: 13px;
+      color: var(--ink-mid);
+      line-height: 1.55;
+    }
+
+    /* ---- Skills ---- */
+    .skills-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .skills-table tr { border-bottom: 1px solid var(--rule); }
+    .skills-table tr:first-child { border-top: 1px solid var(--rule); }
+    .skills-table td { padding: 14px 0; vertical-align: top; }
+    .skills-table td:first-child {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      width: 180px;
+      padding-right: 32px;
+      white-space: nowrap;
+    }
+    .skills-table td:last-child {
+      font-size: 14px;
+      color: var(--ink-mid);
+      line-height: 1.6;
+    }
+
+    /* ---- Projects ---- */
+    .project { padding: 36px 0; border-bottom: 1px solid var(--rule); }
+    .project:first-of-type { border-top: 1px solid var(--rule); }
+    .project-meta {
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+      margin-bottom: 6px;
+    }
+    .project-title {
+      font-size: 17px;
+      font-weight: 500;
+      color: var(--ink);
+    }
+    .project-title a { text-decoration: none; }
+    .project-title a:hover { color: var(--accent); }
+    .project-context {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--ink-light);
+      letter-spacing: 0.04em;
+    }
+    .project-stack {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--ink-light);
+      margin-bottom: 20px;
+    }
+    .project-body {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 32px;
+    }
+    .pfield-label {
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      margin-bottom: 6px;
+    }
+    .pfield-text {
+      font-size: 13px;
+      color: var(--ink-mid);
+      line-height: 1.6;
+    }
+    .project-tags {
+      margin-top: 20px;
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .tag {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--ink-light);
+      border: 1px solid var(--rule);
+      padding: 3px 8px;
+    }
+
+    /* ---- Footer ---- */
+    footer {
+      padding: 52px 0;
+    }
+    .footer-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .footer-name { font-size: 18px; font-weight: 500; margin-bottom: 3px; }
+    .footer-role { font-size: 13px; color: var(--ink-mid); margin-bottom: 10px; }
+    .footer-email {
+      font-family: var(--mono);
+      font-size: 13px;
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .footer-links { display: flex; gap: 24px; }
+    .footer-links a {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--ink-mid);
+      text-decoration: none;
+    }
+    .footer-links a:hover { color: var(--ink); }
+    .footer-copy {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--ink-light);
+    }
+
+    /* ---- Responsive ---- */
+    @media (max-width: 640px) {
+      h1 { font-size: 40px; }
+      .section-head { grid-template-columns: 1fr; gap: 8px; }
+      .metrics { grid-template-columns: 1fr; }
+      .metric { border-right: none; border-bottom: 1px solid var(--rule); }
+      .metric:last-child { border-bottom: none; }
+      .project-body { grid-template-columns: 1fr; gap: 20px; }
+      .nav-links { display: none; }
+      .hero-stats { flex-direction: column; }
+      .stat { border-right: none; border-bottom: 1px solid var(--rule); margin-right: 0; }
+      .footer-row { flex-direction: column; gap: 24px; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-id">chrisjohnson.cv</a>
+    <ul class="nav-links">
+      <li><a href="#impact">Impact</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="chris-johnson-resume.pdf" download class="nav-cta">Download CV</a>
+  </div>
+</nav>
+
+<main>
+<div class="wrap">
+
+  <div class="hero">
+    <p class="hero-label">Senior Network Optimization Engineer / Denver, CO</p>
+    <h1><strong>Chris</strong> Johnson</h1>
+    <p class="hero-bio">
+      15 years designing and optimizing large-scale backbone and carrier networks. Currently at Uniti Group, focused on cost optimization, network consolidation, and infrastructure modernization. BGP, MPLS, DWDM, and WAN at carrier scale.
+    </p>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-value">$2M+</span>
+        <span class="stat-label">Annual savings delivered</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value">15 yrs</span>
+        <span class="stat-label">Industry experience</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value">120+</span>
+        <span class="stat-label">Network nodes managed</span>
+      </div>
+    </div>
+    <div class="hero-actions">
+      <a href="chris-johnson-resume.pdf" download class="btn btn-fill">Download CV</a>
+      <a href="https://www.linkedin.com/in/christopherallenjohnson/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">LinkedIn &rarr;</a>
+    </div>
+  </div>
+
+  <section id="impact">
+    <div class="section-head">
+      <span class="section-label">01 / Impact</span>
+      <h2>Results that matter</h2>
+    </div>
+    <div class="metrics">
+      <div class="metric">
+        <span class="metric-value">$261K</span>
+        <div class="metric-title">MRC Eliminated</div>
+        <div class="metric-desc">7 site exits and 3 consolidations in 2025. 57 circuits decommissioned, 634 groomed, zero customer handoffs lost.</div>
+      </div>
+      <div class="metric">
+        <span class="metric-value">0 min</span>
+        <div class="metric-title">Planned Downtime</div>
+        <div class="metric-desc">Node insert completed ahead of a planned relocation, protecting broadband service to an entire city during the move.</div>
+      </div>
+      <div class="metric">
+        <span class="metric-value">-83%</span>
+        <div class="metric-title">Config Time Reduced</div>
+        <div class="metric-desc">Built a router config template tool that cut per-config time from ~2 hours to 20 minutes. Adopted by the full engineering team.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-head">
+      <span class="section-label">02 / Skills</span>
+      <h2>Technical expertise</h2>
+    </div>
+    <table class="skills-table">
+      <tbody>
+        <tr>
+          <td>Networking</td>
+          <td>BGP, OSPF, MPLS, QoS, DWDM, Carrier WAN</td>
+        </tr>
+        <tr>
+          <td>Cloud</td>
+          <td>Azure, AWS, Hybrid Cloud Architecture, Cloud WAN</td>
+        </tr>
+        <tr>
+          <td>Certifications</td>
+          <td>CCNA, CCNP Enterprise (in progress), AWS Solutions Architect Associate, AWS Cloud Practitioner, Microsoft Azure Fundamentals (AZ-900), CompTIA A+</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="projects">
+    <div class="section-head">
+      <span class="section-label">03 / Projects</span>
+      <h2>Key engagements</h2>
+    </div>
+
+    <!-- Project 1: Site Exit & Consolidation -->
+    <div class="project">
+      <div class="project-meta">
+        <div class="project-title">2025 Site Exit &amp; Consolidation Program</div>
+        <div class="project-context">Uniti Group &middot; 2025</div>
+      </div>
+      <div class="project-body">
+        <div>
+          <div class="pfield-label">Problem</div>
+          <div class="pfield-text">Uniti's network footprint included sites generating unnecessary monthly recurring costs. Safely exiting them required coordinating circuit grooming across dozens of facilities without disrupting active customer handoffs.</div>
+        </div>
+        <div>
+          <div class="pfield-label">Action</div>
+          <div class="pfield-text">Planned and executed 7 site exits and 3 site consolidations. Decommissioned 57 circuits and groomed 634 circuits to alternate paths, validating every customer handoff before cutover.</div>
+        </div>
+        <div>
+          <div class="pfield-label">Impact</div>
+          <div class="pfield-text">$261,000 in monthly recurring costs eliminated across all 10 projects with zero customer-impacting events.</div>
+        </div>
+      </div>
+      <div class="project-tags">
+        <span class="tag">Site Exit</span>
+        <span class="tag">Circuit Grooming</span>
+        <span class="tag">MRC Optimization</span>
+        <span class="tag">DWDM</span>
+      </div>
+    </div>
+
+    <!-- Project 2: Truth or Consequences Node Insert -->
+    <div class="project">
+      <div class="project-meta">
+        <div class="project-title">Truth or Consequences Node Insert</div>
+        <div class="project-context">Uniti Group &middot; Albuquerque Consolidation</div>
+      </div>
+      <div class="project-body">
+        <div>
+          <div class="pfield-label">Problem</div>
+          <div class="pfield-text">A site consolidation in Albuquerque required relocating a Cyan Z77 node that was the sole feed for broadband service to Truth or Consequences, NM. Taking it offline risked an outage of unknown duration if the node didn't come back up cleanly.</div>
+        </div>
+        <div>
+          <div class="pfield-label">Action</div>
+          <div class="pfield-text">Identified the risk ahead of the move and performed a node insert, placing a second Z77 between the feeder and Truth or Consequences. Groomed all broadband traffic to the inserted node before the relocation began.</div>
+        </div>
+        <div>
+          <div class="pfield-label">Impact</div>
+          <div class="pfield-text">Zero service impact to the city during the move. Consolidation completed on schedule with all customers unaffected.</div>
+        </div>
+      </div>
+      <div class="project-tags">
+        <span class="tag">Cyan Z77</span>
+        <span class="tag">Node Insert</span>
+        <span class="tag">Optical Transport</span>
+        <span class="tag">Risk Mitigation</span>
+        <span class="tag">Circuit Grooming</span>
+      </div>
+    </div>
+
+    <!-- TapBlok -->
+    <div class="project">
+      <div class="project-meta">
+        <div class="project-title"><a href="https://github.com/cajdata/TapBlok" target="_blank" rel="noopener noreferrer">TapBlok</a></div>
+        <div class="project-context">Personal Project</div>
+      </div>
+      <div class="project-stack">Android &middot; Kotlin &middot; Jetpack Compose &middot; NFC</div>
+      <div class="project-body">
+        <div>
+          <div class="pfield-label">Problem</div>
+          <div class="pfield-text">Standard app timers are too easy to dismiss. The impulsive bypass is the whole problem, so the barrier needed to be physical, not digital.</div>
+        </div>
+        <div>
+          <div class="pfield-label">Action</div>
+          <div class="pfield-text">Built a native Android app in Kotlin with Jetpack Compose that locks distracting apps and requires scanning a physical NFC tag or QR code to end a session.</div>
+        </div>
+        <div>
+          <div class="pfield-label">Impact</div>
+          <div class="pfield-text">Published to Android. Demonstrates end-to-end software development: Kotlin, Compose, NFC hardware integration, and CI/CD via GitHub.</div>
+        </div>
+      </div>
+      <div class="project-tags">
+        <span class="tag">Kotlin</span>
+        <span class="tag">Jetpack Compose</span>
+        <span class="tag">Android</span>
+        <span class="tag">NFC</span>
+        <span class="tag">GitHub</span>
+      </div>
+    </div>
+
+  </section>
+
+</div>
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-row">
+      <div>
+        <div class="footer-name">Chris Johnson</div>
+        <div class="footer-role">Senior Network Optimization Engineer</div>
+        <a href="mailto:christopherallenj@gmail.com" class="footer-email">christopherallenj@gmail.com</a>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/christopherallenjohnson/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/cajdata" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+      <div class="footer-copy">&copy; 2026 Chris Johnson</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
