@@ -1,0 +1,51 @@
+# Chris Johnson
+
+> Senior Network Optimization Engineer with 15+ years designing and optimizing large-scale backbone and carrier networks. Based in Denver, CO. Currently at Uniti Group Inc., focused on cost optimization, network consolidation, and infrastructure modernization. Specialties include BGP, MPLS, DWDM, SD-WAN, and carrier WAN at scale.
+
+## Contact
+
+- Email: christopherallenj@gmail.com
+- LinkedIn: https://www.linkedin.com/in/christopherallenjohnson/
+- GitHub: https://github.com/cajdata
+- Website: https://chrisjohnson.cv/
+
+## Current Role
+
+Senior Network Optimization Engineer at Uniti Group Inc. (May 2022 to present), remote from Denver, CO. Prior: Senior Planning Engineer and Network Planning Engineer at Lumen Technologies (2012 to 2022), and Network Planning Engineer at Windstream Communications (2010 to 2012).
+
+## Selected Impact
+
+- $261K in monthly recurring costs eliminated in 2025 through 7 site exits and 3 consolidations (57 circuits decommissioned, 634 groomed, zero customer-impacting events).
+- Zero planned downtime during the Truth or Consequences, NM node insert, protecting broadband service to the city during an Albuquerque consolidation.
+- 83% reduction in per-config time via a router configuration template tool adopted by the full engineering team.
+- $2M+ annual savings delivered at Uniti through contract renegotiation, vendor management, and network consolidation.
+
+## Skills
+
+- Networking: BGP, OSPF, MPLS, QoS, DWDM, Carrier WAN, SD-WAN, IP Routing, Capacity Planning, FTTx, TDM-to-IP Migration
+- Cloud: AWS, Microsoft Azure, Hybrid Cloud Architecture
+- Automation: Python, Ansible, Network Automation, Process Optimization
+
+## Certifications
+
+- CCNA
+- CCNP Enterprise (in progress)
+- AWS Solutions Architect Associate
+- AWS Cloud Practitioner
+- Microsoft Azure Fundamentals (AZ-900)
+- CompTIA A+
+
+## Education
+
+- Bachelor of Science, Telecommunication Systems Management, Murray State University
+- Associate of Science, Information Technology, Henderson Community College
+
+## Personal Projects
+
+- [TapBlok](https://github.com/cajdata/TapBlok): Native Android focus app (Kotlin, Jetpack Compose, NFC). Locks distracting apps until the user scans a physical NFC tag or QR code. Published to Android.
+
+## Key Resources
+
+- [Portfolio site](https://chrisjohnson.cv/): Full CV, impact metrics, project case studies.
+- [Resume (HTML)](https://chrisjohnson.cv/resume.html): Web-formatted resume.
+- [Resume (PDF)](https://chrisjohnson.cv/chris-johnson-resume.pdf): Printable resume.
