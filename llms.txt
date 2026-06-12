@@ -24,7 +24,7 @@ Senior Network Optimization Engineer at Uniti Group Inc. (May 2022 to present), 
 
 - Networking: BGP, OSPF, MPLS, QoS, DWDM, Carrier WAN, SD-WAN, IP Routing, Capacity Planning, FTTx, TDM-to-IP Migration
 - Cloud: AWS, Microsoft Azure, Hybrid Cloud Architecture
-- Automation: Python, Ansible, Network Automation, Process Optimization
+- Automation: Python, Network Automation, Process Optimization
 
 ## Certifications
 

@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /chris-johnson-resume.pdf
 
 Sitemap: https://chrisjohnson.cv/sitemap.xml
